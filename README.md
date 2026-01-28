@@ -20,4 +20,13 @@ ros2 run cv_basics
 
 ros2 launch ldlidar_stl_ros2 viewer_ld19.launch 
 
+## 라이다 구독 테스트
+
+cd ros2_app_ws
+
+colcon build --packages-select sensor_test_pack
+
+ros2 run sensor_test_pack lidar_sub_node_best
+
+
 
