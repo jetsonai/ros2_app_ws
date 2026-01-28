@@ -18,7 +18,7 @@ ros2 run cv_basics
 
 ## 라이다 테스트
 
-ros2 launch ldlidar_stl_ros2 viewer_ld19.launch 
+ros2 launch ldlidar_stl_ros2 ld19.launch.py
 
 ## 라이다 구독 테스트
 
